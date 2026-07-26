@@ -10,7 +10,6 @@ export const Register = () => {
     email: '',
     password: '',
     phone: '',
-    role: 'ROLE_OWNER',
   });
   const [loading, setLoading] = useState(false);
   const { register } = useAuth();
